@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaustubh's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display+SC:wght@900&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding:0;
+        }
+        body{
+            background-color: rgb(12, 12, 44) ;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 60px;
+            background-color: rgb(27, 27, 66);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            padding: 2px;
+            list-style: none;
+            margin: 0 23px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: rgb(167, 169, 218);
+        }
+        nav ul li a:hover{
+            /* text-decoration: none; */
+            color: white;
+            font-size: 1.015rem;
+        }
+        .left{
+            font-size: 1.5rem;
+        }
+        .firstsection{
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+            margin-bottom: 151px;
+        }
+          
+        .firstsection > div{
+            width: 30%;
+        }
+
+        .leftsection{
+            /* background-color: red; */
+            font-size: 2.5rem;
+        }
+        .leftsection .btn{
+            padding: 5px;
+            background-color: rgb(97, 42, 148);
+            color: white;
+            /* box-shadow: none; */
+            border: 2px solid rgb(232, 207, 232);
+            border-radius: 10px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: bolder;
+        }
+
+        .rightsection{
+            /* background-color: red; */
+        }
+        
+        .rightsection img{
+            width: 100%;
+        }
+
+        .purple{
+            color: rgb(167, 111, 220);
+        }
+        #element{
+            color: rgb(167, 111, 220);
+        }
+        .secondsection{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+        main hr{
+            border: 0;
+            height: 1.3px;
+            background-color: rgb(120, 120, 183);
+            margin: 40px 84px;
+        }
+        .secondsection h1{
+            font-size: 2rem;
+        }
+        .grey{
+            color: rgb(176, 176, 176);
+        }
+        .secondsection .box{
+            background: white;
+            width: 77vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+        .secondsection .vertical{
+            height: 30px;
+            width: 1px;
+            background: white;
+            margin: 0 138px;
+            
+        }
+
+        .image-top{
+            width: 33px;
+            position: relative;
+            top: -40px;
+            right: 15px;
+        }
+        .verticle-title{
+            position: relative;
+            top: 20px;
+            width: 130px;
+            right: 6px;
+        }
+        .description{
+            position: relative;
+            color: rgb(135, 135, 170);
+            top: 50px;
+            font-size: 11px;
+            width: 130px;
+            right: 6px;
+        }
+        footer{
+            background-color: rgb(39, 20, 73);
+            height: 233px;
+        }
+        .footer{
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .footer > div{
+            width: 123px;
+        }
+        .textc{
+            text-align: center;
+            color: rgb(149, 147, 147);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Kaustubh's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="https://github.com/kaustubhdidit?tab=repositories">Projects</a></li>
+                    <li><a href="https://www.linkedin.com/in/kaustubh-dixit-18136a228/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                <br>
+                <br>
+                
+                Hey.. My name is <span class="purple">Kaustubh</span>
+                <div>I am a</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">
+                        Download resume
+                    </button>
+                    <a href="https://github.com/kaustubhdidit">  <button class="btn">
+                        Github
+                    </button></a>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="bg.png" alt="">
+               
+            </div>
+            
+        </section>
+        <hr>
+        <section class="secondsection">
+
+            <!-- <br> -->
+            <span class="grey">What i have done so far....</span>
+            <h1>Experience</h1>
+            <div class="box">
+                
+                <!-- <div class="vertical">
+                    <img class="image-top" src="dev.png" alt="">
+                    <div class="verticle-title">
+                        HTML Developer
+                    </div>
+                    <div class="description">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore blanditiis, officia sunt animi sapiente, excepturi voluptatibus explicabo, rerum autem veniam delectus? Aut quisquam repellendus possimus id enim dignissimos. Necessitatibus vero accusamus facere assumenda reprehenderit.
+                    </div>
+                </div> -->
+                <div class="vertical">
+                    <img class="image-top" src="reac.png" alt="">
+                    <div class="verticle-title">
+                        REACT
+                    </div>
+                    <div class="description">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore blanditiis, officia sunt animi sapiente, excepturi voluptatibus explicabo, rerum autem veniam delectus? Aut quisquam repellendus possimus id enim dignissimos. Necessitatibus vero accusamus facere assumenda reprehenderit.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="htm.png" alt="">
+                    <div class="verticle-title">
+                        HTML
+                    </div>
+                    <div class="description">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore blanditiis, officia sunt animi sapiente, excepturi voluptatibus explicabo, rerum autem veniam delectus? Aut quisquam repellendus possimus id enim dignissimos. Necessitatibus vero accusamus facere assumenda reprehenderit.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="jva.png" alt="">
+                    <div class="verticle-title">
+                        JAVA
+                    </div>
+                    <div class="description">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore blanditiis, officia sunt animi sapiente, excepturi voluptatibus explicabo, rerum autem veniam delectus? Aut quisquam repellendus possimus id enim dignissimos. Necessitatibus vero accusamus facere assumenda reprehenderit.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="js.png" alt="">
+                    <div class="verticle-title">
+                        JAVASCRIPT
+                    </div>
+                    <div class="description">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore blanditiis, officia sunt animi sapiente, excepturi voluptatibus explicabo, rerum autem veniam delectus? Aut quisquam repellendus possimus id enim dignissimos. Necessitatibus vero accusamus facere assumenda reprehenderit.
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h2>Kaustubh's Developer portfolio</h2>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Work</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Work</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Work</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="textc">www.kaustubhdidit.com | All rights reserved</div>
+    </footer>
+  
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+       <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['React Developer', 'JAVA programmer'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</html>
